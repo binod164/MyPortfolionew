@@ -110,6 +110,7 @@ h1, h2, h3, h4, h5, h6 {
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
+  
 }
 /*--------------------------------------------------------------
 # Header
@@ -131,6 +132,7 @@ h1, h2, h3, h4, h5, h6 {
     border-right: 1px solid #e6e9ec;
     left: -300px;
   }
+
 }
 
 @media (min-width: 992px) {
@@ -451,6 +453,22 @@ section {
   transition: 0.9s;
   background-color: #0563bb;
 }
+
+.skill{
+  height: 50px ;
+  width: 150px;
+  margin: 0.1%;
+}
+
+@media screen and (max-width: 768px) {
+  .skill{
+    height: 30px ;
+    width: 23%;
+    margin: 0.1%;
+  }
+
+}
+
 
 /*--------------------------------------------------------------
 # Resume

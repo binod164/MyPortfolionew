@@ -351,6 +351,14 @@ section {
 }
 .section-title p {
   margin-bottom: 0;
+  font-size: 1.25em;
+}
+
+@media screen and (max-width: 768px) {
+  .section-title p {
+    font-size: 1em;
+  }
+
 }
 
 /*--------------------------------------------------------------
